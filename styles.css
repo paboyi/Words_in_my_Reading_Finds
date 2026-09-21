@@ -1,0 +1,18 @@
+:root {
+    font-size: 10px; /* regulating relative measurement | 10rem = 10px */
+}
+
+*, *::before, *::after {
+    /* box-sizing: border-box; */
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div {
+    margin: 0;
+    padding: 0;
+}
+
+.book p {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
